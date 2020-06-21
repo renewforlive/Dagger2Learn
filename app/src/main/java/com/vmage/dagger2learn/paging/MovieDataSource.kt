@@ -15,7 +15,7 @@ class MovieDataSource: PageKeyedDataSource<Int, Movie.MovieData>() {
     @Inject lateinit var apiService: ApiService
 
     companion object {
-        private const val YEAR = 2019
+        private const val YEAR = 2020
     }
 
     init {

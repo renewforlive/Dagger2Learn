@@ -9,7 +9,7 @@ class MainViewModel : ViewModel() {
 
     private val config by lazy {
         PagedList.Config.Builder()
-            .setMaxSize(20)
+            .setPageSize(20)
             .setInitialLoadSizeHint(40)
             .build()
     }

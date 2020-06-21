@@ -4,16 +4,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import com.bumptech.glide.Glide
 import com.vmage.dagger2learn.R
-import com.vmage.dagger2learn.component.DaggerMovieComponent
-import com.vmage.dagger2learn.model.Movie
-import com.vmage.dagger2learn.repository.MovieRepository
 import com.vmage.dagger2learn.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
-import javax.inject.Inject
 
 class MainActivity : AppCompatActivity() {
 
